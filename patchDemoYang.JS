@@ -1,11 +1,11 @@
 defineClass('PatchViewController', {
   handleBtn: function(sender) {
-    var tableViewCtrl = JPTableViewController.alloc().init()
+    var tableViewCtrl = MYTableViewController.alloc().init()
     self.navigationController().pushViewController_animated(tableViewCtrl, YES)
   }
 })
 
-defineClass('PatchViewController : UITableViewController <UIAlertViewDelegate>', {
+defineClass('MYTableViewController : UITableViewController <UIAlertViewDelegate>', {
   dataSource: function() {
     var data = self.getProp('data')
     if (data) return data;
