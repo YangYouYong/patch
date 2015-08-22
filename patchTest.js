@@ -9,7 +9,7 @@ defineClass("PatchViewController",{
     		width: 120,
     		height: 20
 	})
-	self.view.addSubview(myView)
+	this.view.addSubview(myView)
 	log('print view clolor')
 	}
 },{})
