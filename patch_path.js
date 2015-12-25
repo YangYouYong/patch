@@ -1,1 +1,1 @@
-https: //github.com/YangYouYong/patch/raw/master/fangkuaiyi_path.js
+'https://github.com/YangYouYong/patch/raw/master/fangkuaiyi_path.js'
